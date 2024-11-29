@@ -1,0 +1,36 @@
+.CountryDetails {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.col {
+  max-width: 400px;
+  height: auto;
+ text-align: left;
+  margin: 15px;
+}
+
+.countryImage {
+  border-radius: 20px;
+}
+.countryImage:hover{
+    transform: scale(1.1);
+    
+
+}
+
+.countryDetails {
+  font-size: 1.5rem;
+}
+.firstItem {
+  margin-top: 0;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+

@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  margin: 0 0;
+}
+
+body{
+  padding-top: 90px;
+  margin:0;
+
+}
+
+.title{
+  text-align: center;
+}
+/* Estilos generales de la navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:lightsalmon;
+  margin: 0;
+  color: #fff;
+  z-index: 1000;
+  padding: 10px 20px;
+  overflow: hidden;
+  box-sizing: border-box; /* Incluye el padding en el tamaño total */
+}
+
+/* Contenedor del logo y los enlaces */
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Permite que los elementos se apilen si no caben */
+}
+
+/* Logo */
+.navbar-logo {
+ 
+  font-weight: bold;
+  border-radius:70px;
+
+  padding: 10px;
+}
+
+/* Enlaces de navegación */
+.navbar-links {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para enlaces */
+.navbar-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 5px 10px;
+}
+
+.navbar-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .navbar-content {
+      flex-direction: column; /* Apila el logo y los enlaces en columna */
+      align-items: center;
+  }
+
+  .navbar-links {
+      flex-direction: row;
+      flex-wrap: wrap; /* Permite que los enlaces se ajusten en varias líneas */
+      justify-content: center;
+  }
+
+  .navbar-links li a {
+      font-size: 0.9em; /* Reduce el tamaño de fuente de los enlaces */
+      padding: 4px 8px; /* Reduce el padding de los enlaces */
+  }
+}

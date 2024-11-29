@@ -1,0 +1,62 @@
+.container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:50px 50px ;
+    margin:50px 50px;
+    flex-direction: column;
+    background-color:lightsalmon;
+}
+
+.raum {
+  display: flex;
+  align-items: center;
+  gap:20px;
+  padding:10px;
+  background-color: white;
+ 
+    
+}
+.text {
+   display: flex;
+   flex-direction: column; 
+   justify-items: center;
+   color: chocolate;
+}
+.ram img{
+    flex-shrink: 0;
+
+}
+
+.raum a {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
+
+.linea {
+  border: none; /* Elimina el borde predeterminado */
+  height: 2px; /* Define el grosor */
+  background-color:coral; /* Cambia el color */
+  margin: 20px 0; /* Espacio superior e inferior */
+  width: 80%; /* Ajusta el ancho */
+  border-radius: 5px; /* Bordes redondeados, opcional */
+}
+
+
+@media (max-width: 768px) {
+    .raum {
+      flex-direction: column; 
+      text-align: center;
+    }
+  }
+  
+
+
+@media (max-widht:960px){
+    .raum{
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -1,0 +1,26 @@
+.countryGrid{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap:40px;
+    padding: 40px;   /* elementos y el borde*/
+     /* elementos los centra en  la pantalla*/
+     align-items: start;
+     justify-content: center;
+
+}
+
+@media  (max-width:560px){
+    .countryGrid{
+        grid-template-columns: 100%;
+        
+    }
+    
+}
+
+@media  (max-width:980px){
+    .countryGrid{
+        grid-template-columns: repeat(2 ,1fr);
+        
+    }
+    
+}

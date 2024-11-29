@@ -1,0 +1,65 @@
+.container {
+    display: inline-grid; /* Cambiado de inline-grid a grid */
+    grid-template-rows:repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+  
+    margin-top: 50px;
+  
+}
+* {
+    outline: 1px solid rgba(0, 0, 0, 0.1); /* Visualiza los bordes */
+}
+
+.raum {
+    border: 1px solid black;
+    font-size: 50%; /* Tamaño de fuente reducido */
+    text-align: center;
+   
+
+}
+
+#wohnzimmer {
+    grid-column-start: 1;
+    grid-column-end: 6; 
+    grid-row-start:1;
+    grid-row-end:3;
+}
+
+#küche {
+    grid-column: 4 / 6;
+    grid-row: 3 / 6;
+   }
+   #schlafzimmer {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+   }
+   #badezimmer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 6;
+   }
+   #schrank {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+ grid-row-end: 6;
+}
+
+
+
+@media (max-width: 768px){ 
+    .container{
+        grid-template-columns: repeat(2, 100px);
+        
+    }
+    
+}
+@media (max-width: 480px){ 
+    .container{
+        grid-template-columns: 1fr;
+    }
+    
+}
