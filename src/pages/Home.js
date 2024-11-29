@@ -97,23 +97,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className={styles.raum}>
-        <img src={Dockers} alt="Portafoto" width={280} height={300} />
-        <img src={K8S} alt="Portafoto" width={280} height={300} />
-        <img src={Jenkins} alt="Portafoto" width={280} height={300} />
-        <div className={styles.text}>
-          <h1>
-            {" "}
-            Hi! My name is Rosa. I just finished my one-year Web Developer
-            training.
-          </h1>
-          <p>
-            {" "}
-            I would like to share with you my experience after finishing my
-            training at a company. Let’s go to the beginning.
-          </p>
-        </div>
-      </div>
+ 
 
       <div className={styles.raum}>
         <img src={JavaScript} alt="Portafoto" width={280} height={300} />
@@ -132,43 +116,29 @@ const Home = () => {
         </div>
       </div>
 
-      <div className={styles.raum}>
-        <img src={K8S} alt="Portafoto" width={280} height={300} />
-        <img src={Jenkins} alt="Portafoto" width={280} height={300} />
-        <div className={styles.text}>
-          <h1>
-            {" "}
-            Hi! My name is Rosa. I just finished my one-year Web Developer
-            training.
-          </h1>
-          <p>
-            {" "}
-            I would like to share with you my experience after finishing my
-            training at a company. Let’s go to the beginning.
-          </p>
-        </div>
-      </div>
-      <div className={styles.raum}>
-        <img src={Linux} alt="Portafoto" width={280} height={300} />
-        <div className={styles.text}>
-          <h1>
-            {" "}
-            Hi! My name is Rosa. I just finished my one-year Web Developer
-            training.
-          </h1>
-          <p>
-            {" "}
-            I would like to share with you my experience after finishing my
-            training at a company. Let’s go to the beginning.
-          </p>
-        </div>
-      </div>
 
       <div className={styles.raum}>
         <img src={Postman} alt="Portafoto" width={280} height={300} />
         <img src={NodeJs} alt="Portafoto" width={280} height={300} />
         <img src={LogoReact} alt="Portafoto" width={280} height={300} />
 
+        <div className={styles.text}>
+          <h1>
+            {" "}
+            Hi! My name is Rosa. I just finished my one-year Web Developer
+            training.
+          </h1>
+          <p>
+            {" "}
+            I would like to share with you my experience after finishing my
+            training at a company. Let’s go to the beginning.
+          </p>
+        </div>
+      </div>
+      <div className={styles.raum}>
+        <img src={Dockers} alt="Portafoto" width={280} height={300} />
+        <img src={K8S} alt="Portafoto" width={280} height={300} />
+        <img src={Jenkins} alt="Portafoto" width={280} height={300} />
         <div className={styles.text}>
           <h1>
             {" "}

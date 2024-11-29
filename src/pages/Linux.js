@@ -1,7 +1,10 @@
+import styles from './linuxInformation.module.css'
+
 const LinuxInformation = () => {
     return (
-      <div> 
-        <h2>What is Linux?</h2>
+      <div className={styles.div} > 
+        <head > <h2>What is Linux?</h2></head>
+        <body className={styles.body}>
         <p>
           Linux is a <strong>powerful, open-source operating system</strong> used
           worldwide for servers, desktops, mobile devices, and embedded systems.
@@ -44,6 +47,7 @@ const LinuxInformation = () => {
             </a>
           </li>
         </ul>
+        </body>
       </div>
     );
   };
