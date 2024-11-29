@@ -1,33 +1,31 @@
-.container{
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding:50px 50px ;
-    margin:50px 50px;
-    flex-direction: column;
-    background-color:lightsalmon;
+.container {
+  background-color: lightsalmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin: 50px;
+  flex-direction: column;
 }
 
 .raum {
-  display: flex;
-  align-items: center;
-  gap:20px;
-  padding:10px;
-  background-color: white;
- 
-    
+display: inline;
 }
-.text {
-   display: flex;
-   flex-direction: column; 
-   justify-items: center;
-   color: chocolate;
-}
-.ram img{
-    flex-shrink: 0;
 
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:honeydew;
+  max-width: 600px; /* Controla el ancho del texto */
 }
+
+.raum img {
+  max-width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+
 
 .raum a {
   display: flex;
@@ -36,15 +34,17 @@
 }
 
 .linea {
-  border: none; /* Elimina el borde predeterminado */
-  height: 2px; /* Define el grosor */
-  background-color:coral; /* Cambia el color */
+  border: none; 
+  height: 2px; 
+  background-color:coral; 
   margin: 20px 0; /* Espacio superior e inferior */
   width: 80%; /* Ajusta el ancho */
-  border-radius: 5px; /* Bordes redondeados, opcional */
+  border-radius: 5px;
 }
 
-
+.foto{
+  background: white;
+}
 @media (max-width: 768px) {
     .raum {
       flex-direction: column; 

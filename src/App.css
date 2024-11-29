@@ -1,13 +1,16 @@
 .App {
+  max-width: 1200px; /* Define un ancho máximo para la aplicación */
+  margin: 0 auto; /* Centra la aplicación horizontalmente */
   text-align: center;
-  margin: 0 0;
 }
 
-body{
-  padding-top: 90px;
-  margin:0;
 
+body {
+  padding-top: 70px; /* Ajusta al tamaño real de la navbar */
+  margin: 0;
+  box-sizing: border-box; /* Asegura un cálculo consistente de los tamaños */
 }
+
 
 .title{
   text-align: center;
@@ -32,26 +35,19 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap; /* Permite que los elementos se apilen si no caben */
+  flex-wrap: nowrap; /* Evita que los elementos se apilen inesperadamente */
 }
 
-/* Logo */
 .navbar-logo {
- 
-  font-weight: bold;
-  border-radius:70px;
-
-  padding: 10px;
+  max-width: 20%; /* Ajusta el tamaño del logo para evitar que ocupe demasiado espacio */
 }
 
-/* Enlaces de navegación */
 .navbar-links {
   display: flex;
   gap: 15px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  flex-wrap: nowrap; /* Mantiene los enlaces en una sola línea */
 }
+
 
 /* Estilos para enlaces */
 .navbar-links li a {

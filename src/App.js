@@ -6,6 +6,7 @@ import { CountryGrid } from './components/CountryGrid';
 import { Link } from 'react-router-dom';
 import { CountryDetails } from './pages/CountryDetails';
 import { LandingPage } from './pages/LandingPage';
+import LinuxInformation from './pages/Linux.js';
 import Home from './pages/Home.js';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<CountryGrid />} />  
           <Route path="/country/:name" element={<CountryDetails />} />
           <Route path="/landingPage" element={<LandingPage />} />
+          <Route path="/linux" element={<LinuxInformation />} />
         </Routes>
       </Router>
     </div>
